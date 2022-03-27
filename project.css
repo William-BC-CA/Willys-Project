@@ -1,0 +1,306 @@
+body {font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    }
+header {font-family: "Times New Roman", serif;
+    background-image: url("images/autowebsite-logo.gif");
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+ul, li {font-family: Arial, sans-serif;
+    }
+p {font-family: Arial, sans-serif;
+    display: block;
+    }
+h1 {text-align: center;
+    }
+nav {text-align: center;
+    background-color: darkorange;
+    padding: 0.1mm;
+    }
+nav a {text-decoration: none;
+    }
+nav ul {list-style-type: none;
+    }
+nav li {margin-bottom: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    }
+nav ul ul {display: none;
+    position: relative;
+    background-color: red;
+    padding-top: 8px;
+    }
+nav ul ul li {display: block;
+    text-align: left;
+    }
+nav li:hover ul {display: block;
+    }
+a:hover {color: yellow;
+    text-decoration: underline;
+    }
+a:active {color: black;
+    text-decoration: none;
+    }
+/* main a {text-decoration: none;
+    color: black;
+    }
+main a:hover {color: black;
+    text-decoration: none;
+    }
+main a:active {color: black;
+    text-decoration: none;
+    } */
+#wrapper {width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    min-width: 700px;
+    /* overflow: hidden; */
+    }
+footer {font-size: 1em;
+    font-style: italic;
+    text-align: center;
+    background-color: darkgrey;
+    padding: 1.5em;
+    clear: both;
+    }
+#corolla {background-image: url("images/2020-Toyota-Corolla-Small.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    /* width: 750px; */
+    }
+#lexusrx {background-image: url("images/lexusrx.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    }
+#nsx {background-image: url("images/acura-nsx.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    }
+.italics {font-style: italic;
+    font-family: "Times New Roman";
+    }
+#fuel {overflow: auto;
+    }
+#tributo-front {background-image: url("images/Ferrari-F8-Tributo-Front.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    }
+#tributo-back {background-image: url("images/Ferrari-F8-Tributo-Back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 620px;
+    }
+#lfa-front {background-image: url("images/lexus-lfa-front.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 564px;
+    }
+#lfa-back {background-image: url("images/lexus-lfa-back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 455px;
+    }
+#lambo-front {background-image: url("images/lambo_murc_front.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 525px;
+    }
+#lambo-back {background-image: url("images/lambo_murc_back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 288px;
+    }
+#center {text-align: center;
+    }
+nav ul { list-style-type: none;
+    /* margin: 0; 
+    padding: 0;
+    overflow: hidden; */
+    }
+nav li { margin-bottom: 5px;
+    /*Inline For horizontal navigation and disable block as well*/
+    /* display: inline; */
+    display: inline-block;
+    margin-right: 10px;
+    /* display: block; */
+    }
+nav ul ul {display: none;
+    position: absolute;
+    }
+nav ul ul li {display: block;
+    text-align: left;
+    }
+nav li:hover ul {display: block;
+    }
+#hyperlinkcolor {color: blue;
+    }
+#mobile {display: none;
+    }
+#desktop {display: inline;
+    }
+#pumpfuel {background-image: url("images/mobile/fuelpump-small.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 200px;
+    float: left;
+    margin: 0 0 5px 5px; /* Default: margin: 0 1px; */
+    /* overflow: auto; */
+    }
+#tesla-charger {background-image: url("images/tesla-supercharger-resize.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 600px;
+    float: right;
+    margin: 0 0 5px 5px; /* Default: margin: 0 35px; */
+    }
+#audi-diesel {background-image: url("images/audi-s5-diesel-front.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 384px;
+    width: 550px;
+    float: left;
+    margin: 0 0 0px 5px; /* Default: margin: 0 35px 100 px; */
+    }
+#mirai {background-image: url("images/toyota-mirai-2014-vs-2020-resize.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 360px;
+    width: 480px;
+    float: right;
+    margin: 0 0 5px 5px; /* Default: margin: 0 35px 100px; */
+    /* padding-bottom: 100px; */
+    }
+
+table {border: 2px solid red;
+    border-collapse: collapse;
+    margin: 1em;
+    }
+td, th {text-align: center;
+    width: 13%;
+    border: 1px solid black;
+    padding: 1em;
+    }
+form {padding: 20px;
+    }
+label {float: left;
+    width: 130px;
+    clear: left;
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 15px;
+    }
+input, textarea, select {margin-top: 15px;
+    display: block;
+    background-color: lightgrey;
+    border-color: red;
+    font-family: Arial;
+    }
+fieldset {border-color: orange;
+    }
+#mySubmit {margin-left: 145px;
+    }
+#centervideo {text-align: center;
+    /* width: 100%;
+    height: 100%; */
+    }
+@media only screen and (max-width: 768px){
+    header {background-image: url("images/mobile/autowebsite-logo-small.gif");
+        }
+    
+    h1 {font-size: 1.5em;
+        line-height: 120%;
+        }
+
+    nav a {display: block;
+        padding: 0.2em;
+        font-size: 1em;
+        border-bottom: 1px;
+        border-color: #330000;
+        }
+    
+    nav li {display: block;
+        }
+    
+    nav ul {text-align: center;
+        }
+
+    nav ul ul {text-align: center;
+        }
+
+    main {padding-left: 1em;
+        }
+    
+    #mobile {display: inline;
+        }
+
+    #desktop {display: none;
+        }
+
+    #wrapper {margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        min-width: 0px;
+        }
+    
+    #tributo-front {background-image: url("images/mobile/Ferrari-F8-Tributo-Front-Small.jpg");
+        height: 100px;
+        }
+    
+    #tributo-back {background-image: url("images/mobile/Ferrari-F8-Tributo-Back-Small.jpg");
+        height: 133px;
+        }
+    #lfa-front {background-image: url("images/mobile/lexus-lfa-front-small.jpg");
+        height: 113px;
+        }
+    #lfa-back {background-image: url("images/mobile/lexus-lfa-back-small.jpg");
+        height: 113px;
+        }
+    #lambo-front {background-image: url("images/mobile/lambo_murc_front-small.jpg");
+        height: 150px;
+        }
+    #lambo-back {background-image: url("images/mobile/lambo_murc_back-small.jpg");
+        height: 113px;
+        }
+    #corolla {background-image: url("images/mobile/2020-toyota-corolla-small.jpg");
+        height: 112px;
+        }
+    #lexusrx {background-image: url("images/mobile/lexusrx-small.jpg");
+        height: 133px;
+        }
+    #nsx {background-image: url("images/mobile/acura-nsx-small.jpg");
+        height: 100px;
+        }
+    #pumpfuel {float: none;
+        text-align: center;
+        margin: auto;
+        }
+    #tesla-charger {background-image: url("images/mobile/tesla-supercharger-small.jpg");
+        height: 116px;
+        width: 200px;
+        float: none;
+        margin: auto;
+        }
+    #audi-diesel {background-image: url("images/mobile/audi-s5-diesel-front-small.jpg");
+        float: none;
+        height: 140px;
+        width: 200px;
+        margin: auto;
+        }
+    #mirai {background-image: url("images/mobile/toyota-mirai-2014-vs-2020-small.png");
+        float: none;
+        height: 150px;
+        width: 200px;
+        margin: auto;
+        clear: none;
+        }
+}

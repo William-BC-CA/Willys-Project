@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>The Car Website :: Car Showcase</title>
+    <link rel = "stylesheet" href = "project.css">
+    <meta charset = "utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <meta name = "description" content = "The ultimate car website! There are photos of cars, real car specifications, fun facts, and much more when you are browsing around our site!"
+</head>
+<body>
+<div id = "wrapper">
+    <header>
+        <!-- <h1>Ultimate Vehicles</h1> -->
+    </header>
+    <nav>
+        <ul>
+            <li><a href = "index.html" onmouseout = "alert('This is the home page!');">Home</a></li>
+            <li><a href = "specifications.html" onmouseout = "alert('The specification page provides stats on selected cars!');">Specifications</a></li>
+            <li><a href = "carshowcase.html" onmouseout = "alert('The Car Showcase displays photos of selected vehicles!');">Car Showcase</a></li>
+            <li><a href = "fuel.html" onmouseout = "alert('There are different fuel types for vehicles!');">Fuel Types</a></li>
+            <li><a href = "contact.html" onmouseout = "alert('Have a problem or question? Do not hesitate to ask us!');">Contact</a></li>
+            <li><a href = "peerreview.html" onmouseout = "alert('View given reviews to other websites!');">Peer Review</a></li>
+            <li><div id = "hyperlinkcolor">More Info</div>
+                <ul>
+                    <li><a href = "facts.html" onmouseout = "alert('There are some interesting facts about vehicles!');">Fun Car Facts</a></li>
+                    <li><a href = "https://sites.google.com/view/notoriexlegacy/home">My Real Google Website</a></li>
+                    <li><a href = "tires.html" onmouseout = "alert('There are different kinds of racing tires each with their own pros and cons!');">Best Racing Tires</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Showcasing of Cars</h2>
+        <p>Here is our current showcase of vehicles that are good-looking in some way</p>
+        <!-- <center><img src = "images/Ferrari-F8-Tributo-Front.jpg" alt = "Ferrari F8 Tributo Front" width = "1000" height = "500">
+        <img src = "images/Ferrari-F8-Tributo-Back.jpg" alt = "Ferrari F8 Tributo Back" width = "930" height = "620"> -->
+        <div id = "tributo-front"></div>
+        <div id = "tributo-back"></div>
+        <p id = "center"><span class = "italics">2021 Ferrari F8 Tributo<br>Reason: It looks like a very nice and aggressive looking car<br></span></p>
+        <!-- <img src = "images/lexus-lfa-front.jpg" alt = "Lexus LFA Front" width = "500" height = "300">
+        <img src = "images/lexus-lfa-back.jpg" alt = "Lexus LFA Back" width = "500" height = "300"> -->
+        <div id = "lfa-front"></div>
+        <div id = "lfa-back"></div>
+        <p id = "center"><span class = "italics">2010-2012 Lexus LFA<br>Reason: One of the best sounding cars and the best sounding naturally aspirated V10 ever!<br>Overpriced and rare supercar</span><br></p>
+        <!-- <img src = "images/lambo_murc_front.jpg" alt = "Lamborghini Murcielago Front" width = "700" height = "525">
+        <img src = "images/lambo_murc_back.jpg" alt = "Lamborghini Murcielago Back" width = "512" height = "288"> -->
+        <div id = "lambo-front"></div>
+        <div id = "lambo-back"></div>
+        <p id = "center"><span class = "italics">2009-2010 Lamborghini Murcielago LP640-4 SV<br>Reason: Has a good sounding V12, potentially more popular than the Aventador<br>This is also the fastest variant of the Murcielago</span></p>
+        <div id = "centervideo">
+        <iframe width="720" height="360" src="https://www.youtube.com/embed/RY_rbooeMcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+    <footer>
+        Copyright &copy; 2021 About Cars. All rights reserved.
+        <h3>This page was last edited on:
+            <script>
+                document.write(document.lastModified);
+            </script>
+        </h3>
+    </footer>
+</div>
+</html>

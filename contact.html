@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>The Car Website :: Contact</title>
+    <link rel = "stylesheet" href = "project.css">
+    <meta charset = "utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <meta name = "description" content = "The ultimate car website! There are photos of cars, real car specifications, fun facts, and much more when you are browsing around our site!"
+</head>
+<body>
+<div id = "wrapper">
+    <header>
+        <!-- <h1>Ultimate Vehicles</h1> -->
+    </header>
+    <nav>
+        <ul>
+            <li><a href = "index.html" onmouseout = "alert('This is the home page!');">Home</a></li>
+            <li><a href = "specifications.html" onmouseout = "alert('The specification page provides stats on selected cars!');">Specifications</a></li>
+            <li><a href = "carshowcase.html" onmouseout = "alert('The Car Showcase displays photos of selected vehicles!');">Car Showcase</a></li>
+            <li><a href = "fuel.html" onmouseout = "alert('There are different fuel types for vehicles!');">Fuel Types</a></li>
+            <li><a href = "contact.html" onmouseout = "alert('Have a problem or question? Do not hesitate to ask us!');">Contact</a></li>
+            <li><a href = "peerreview.html" onmouseout = "alert('View given reviews to other websites!');">Peer Review</a></li>
+            <li><div id = "hyperlinkcolor">More Info</div>
+                <ul>
+                    <li><a href = "facts.html" onmouseout = "alert('There are some interesting facts about vehicles!');">Fun Car Facts</a></li>
+                    <li><a href = "https://sites.onmouseout.com/view/notoriexlegacy/home">My Real Google Website</a></li>
+                    <li><a href = "tires.html" onmouseout = "alert('There are different kinds of racing tires each with their own pros and cons!');">Best Racing Tires</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <form method = "post" action = "http://webdevbasics.net/scripts/demo.php">
+            <fieldset><legend>Contact Form</legend>
+
+                <label for = "myName">*Name:</label>
+                <input type = "text" name = "myName" id = "myName" required = "required" placeholder = "John Smith">
+
+                <label for = "myEmail">E-mail <small>(optional)</small>:</label>
+                <input type = "text" name = "myEmail" id = "myEmail" placeholder = "example@website.com">
+
+                <label for = "myComments">*Description:</label>
+                <textarea name = "myComments" id = "myComments" rows = "10" cols = "30" required = "required" placeholder = "Please write a description."></textarea>
+
+                <input id = "mySubmit" type = "submit" value = "Send">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        Copyright &copy; 2021 About Cars. All rights reserved.
+        <h3>This page was last edited on:
+            <script>
+                document.write(document.lastModified);
+            </script>
+        </h3>
+    </footer>
+</div>
+</html>
